@@ -1,0 +1,20 @@
+
+	<div class="col-md-6 col-xs-12">
+		<a href="{{ site_base }}/article/detail/a/{{ article["id"] }}">
+			<div class="hovereffect">
+			    <img class="mini-articulos" src="{{ article["thumb_500"] }}" />
+			<div class="overlay">
+               <a class="info" href="{{ site_base }}/article/detail/a/{{ article["id"] }}">Ver más</a>
+           </div>
+           </div>
+			<h1 class="text-left tres"> {{ article["title"] }} </h1>
+			<p class="text-left cuatro ellipsis multiline">{{ article["caption"] }} </p>
+			<a href="{{ site_base }}/article/detail/a/{{ article["id"] }}" onclick="vermas()" class="loki">Ver Más</a>
+          <div id="vermasdiv" style="display:none">Texto de Ver Más</div>
+		</a>
+	</div>
+
+ 
+        
+         
+     
