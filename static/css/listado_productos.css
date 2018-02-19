@@ -591,11 +591,16 @@ margin-bottom: 35px;
 
 }
 
+.index {
+    position: relative;
+    left: -11px;
+}
+
 .texto-header-pro {
-    margin-top: -5px;
+    margin-top: -9px;
     margin-bottom: 36px;
     position: relative;
-    left: 7px;
+    left: 3px;
     float: left;
     font-size: 15px;
     -ms-transform: scaleY(1.2);

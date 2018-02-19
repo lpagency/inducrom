@@ -23,6 +23,10 @@ div.upload input, div.image-upload input {
     border-bottom: 1px solid #ddd;
 }
 
+.piki{
+    margin-left: -17px;
+}
+
 .ban-lineas{
     left: 17px;
     position: relative;
