@@ -27,6 +27,14 @@ div.upload input, div.image-upload input {
     margin-left: -17px;
 }
 
+.prod-menu{
+    left: -18px !important;
+}
+
+.drop-prod{
+    padding-bottom: 20px;
+}
+
 .ban-lineas{
     left: 17px;
     position: relative;

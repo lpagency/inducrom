@@ -44,17 +44,20 @@
                                       <li><a class="" style="color:rgba(84, 84, 84, 0.79);" href="http://inducrom.lpe.cl/article/detail/nosotros/1999">NOSOTROS</a></li>
                                     </ul>
                                   </div>
-                                 <div class="dropdown col-md-2 col-sm-2">
-                                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" onclick="window.location.href='{{ site_base }}/lineas_de_negocios'">PRODUCTOS
-                                    </button>
-                                    <ul class="dropdown-menu" style="display: none">
-                                      <li><a class="azul" href="{{ site_base}}/listado_productos?tag=control_de_acceso">CONTROL DE ACCESO</a></li>
-                                      <li><a class="verde" href="{{ site_base}}/listado_productos?tag=productos_ecologicos">PRODUCTOS ECOLÓGICOS</a></li>
-                                      <li><a class="amarillo" href="{{ site_base}}/listado_productos?tag=mobiliario_urbano">MOBILIARIO URBANO</a></li>
-                                      <li><a class="naranjo" href="{{ site_base}}/listado_productos?tag=espacios_publicos">ESPACIOS PÚBLICOS</a></li>
-                                      <li><a class="rojo" href="{{ site_base}}/listado_productos?tag=productos_especiales">PRODUCTOS ESPECIALES</a></li>
-                                      <li><a class="gris" href="{{ site_base}}/listado_productos?tag=productos_nuevos">PRODUCTOS NUEVOS</a></li>
-                                    </ul>
+                                 <div class="col-md-2 col-sm-2">
+                                  <button class="btn btn-primary" type="button">
+                                    <div class="dropdown drop-prod">
+                                      <div class="dropdown-toggle" data-toggle="dropdown" onclick="window.location.href='{{ site_base }}/lineas_de_negocios'">PRODUCTOS</div>
+                                      <ul class="dropdown-menu prod-menu" style="display: none">
+                                        <li><a class="azul" href="{{ site_base}}/listado_productos?tag=control_de_acceso">CONTROL DE ACCESO</a></li>
+                                        <li><a class="verde" href="{{ site_base}}/listado_productos?tag=productos_ecologicos">PRODUCTOS ECOLÓGICOS</a></li>
+                                        <li><a class="amarillo" href="{{ site_base}}/listado_productos?tag=mobiliario_urbano">MOBILIARIO URBANO</a></li>
+                                        <li><a class="naranjo" href="{{ site_base}}/listado_productos?tag=espacios_publicos">ESPACIOS PÚBLICOS</a></li>
+                                        <li><a class="rojo" href="{{ site_base}}/listado_productos?tag=productos_especiales">PRODUCTOS ESPECIALES</a></li>
+                                        <li><a class="gris" href="{{ site_base}}/listado_productos?tag=productos_nuevos">PRODUCTOS NUEVOS</a></li>
+                                      </ul>
+                                    </div>
+                                  </button>
                                   </div>
                                 <li>
                                     <a href="{{ site_base}}/clientes">CLIENTES</a>
