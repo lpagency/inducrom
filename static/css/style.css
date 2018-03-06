@@ -45,6 +45,10 @@ div.upload input, div.image-upload input {
     position: relative;
 }
 
+.banner-iconos{
+    min-height: 183px;
+}
+
 .producto-detalle-cotizacion{
     display: none;
 }
