@@ -23,6 +23,11 @@ div.upload input, div.image-upload input {
     border-bottom: 1px solid #ddd;
 }
 
+.subcategoria-option{
+    position: relative;
+    left: -27px;
+}
+
 .piki{
     margin-left: -17px;
 }
